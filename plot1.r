@@ -1,4 +1,4 @@
-setwd("C:/Users/rtimpe/Desktop/Coursera/ExploratoryDataAnalysis/Project 1")
+setwd("C:/Users/Karthik/Desktop/Coursera/ExploratoryDataAnalysis/Project 1")
 
 raw.data <- read.table("household_power_consumption.txt", sep=";", header=T)
 raw.data <- subset(raw.data, Date %in% c("1/2/2007", "2/2/2007"))
